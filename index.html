@@ -19,10 +19,19 @@
     }
     .GREENBAY{
         background-color: rgb(68, 94, 119);
+        color: whitesmoke;
     }
     .yellow{
         background-color: rgb(255, 228, 74);
     }
+    .score,.half,.yards,.ypp,.to {
+        color: rgb(7, 160, 7);
+    }
+    .gray-bg{
+        background-color: rgb(218, 213, 213);
+    }
+    
+    
     
     
     
@@ -34,7 +43,7 @@
     <table>
         <h1>Advanced Team Stats</h1>
         <tr>
-            <th colspan="100" class="GREENBAY" >GREEN BAY -Current Season Performance</th>
+            <th colspan="100" class="GREENBAY"  ><strong>GREEN BAY -Current Season Performance</strong></th>
             </tr>
 
             <tr>
@@ -73,13 +82,13 @@
             <td>+6</td>
             <td>13-7</td>
             <td>8-12</td>
-            <td>25.4</td>
-            <td>13.5</td>
-            <td>358.7</td>
-            <td>(6)</td>
-            <td>1.3</td>
-            <td>15.8</td>
-            <td>7.6</td>
+            <td class="score gray-bg"><b>25.4</b</td>
+            <td class="half gray-bg"><b>13.5</b></td>
+            <td class="yards gray-bg"><b>358.7</b></td>
+            <td class="ypp gray-bg"><b>(6)</b></td>
+            <td class="to gray-bg"><b>1.3</b></td>
+            <td class="score gray-bg"><b>15.8</b></td>
+            <td class="hal gray-bgf"><b>7.6</b></td>
             <td>309.0</td>
             <td>(5.4)</td>
             <td>2.1</td>
@@ -93,16 +102,16 @@
             <td>+5.5</td>
             <td>5-3</td>
             <td>5-3</td>
-            <td>30.5</td>
-            <td>15.1</td>
-            <td>371.1</td>
-            <td>(6.4)</td>
-            <td>1.2</td>
-            <td>15.4</td>
+            <td class="score gray-bg"><b>30.5</b></td>
+            <td class="half gray-bg"><b>15.1</b></td>
+            <td class="yards gray-bg"><b>371.1</b></td>
+            <td class="ypp gray-bg"><b>(6.4)</b></td>
+            <td class="to gray-bg"><b>1.2</b></td>
+            <td class="score gray-bg"><b>15.4</b></td>
             <td>10.6</td>
             <td>310.9</td>
             <td>(5.3)</td>
-            <td>2.7</td>
+            <td class="to gray-bg"><b>2.7</b></td>
             </tr>
 
 
@@ -113,16 +122,16 @@
             <td>+3</td>
             <td>3-0</td>
             <td>2-1</td>
-            <td>33.3</td>
-            <td>21.0</td>
-            <td>378.7</td>
-            <td>(6.3)</td>
-            <td>1.0</td>
+            <td class="score gray-bg"><b>33.3</b></td>
+            <td class="half gray-bg"> <b>21.0</b></td>
+            <td class="yards gray-bg"><b><378.7/b></td>
+            <td  class="ypp gray-bg"><b>(6.3)</b></td>
+            <td class="to gray-bg"><b>1.0</b></td>
             <td>20.0</td>
-            <td>8.0</td>
+            <td class="half gray-bg"><b>8.0</b></td>
             <td>294.0</td>
             <td>(5.2)</td>
-            <td>3.3</td>
+            <td class="to gray-bg"><b>3.3</b></td>
           
         </tr>
             
@@ -133,23 +142,148 @@
             <td>+7.8</td>
             <td>9-5</td>
             <td>5-9</td>
-            <td>25.1</td>
-            <td>13.2</td>
-            <td>355.4</td>
-            <td>(6)</td>
-            <td>1.4</td>
-            <td>14.9</td>
-            <td>7.2</td>
+            <td class="score gray-bg"><b>25.1</b></td>
+            <td class="half gray-bg"><b>13.2</b></td>
+            <td class="yards gray-bg"><b>355.4</b></td>
+            <td class="ypp gray-bg"><b>(6)</b></td>
+            <td class="to gray-bg"><b>1.4</b></td>
+            <td class="score gray-bg"><b>14.9</b></td>
+            <td class="half gray-bg"><b>7.2</b></td>
             <td>319.3</td>
             <td>(5.4)</td>
             <td>2.3</td>
         </tr>
+ </table>
 
+     <table>
+        <h1>GREEN BAY-Current Season Statistics</h1>
+        
+        <tr>
+            <th colspan="5"></th> <!--stays empty but color-->
+           <th colspan="2"> Rushing </th>
+           <th colspan="3">Passing</th>
+           <th colspan="5">Total</th>
+        </tr>
+        <tr>
+            <th></th> <!--stays empty but color-->
 
+            <th>PPG</th>
+            <th>Half</th>
+            <th>FD</th>
+            <th>TOP</th>
+            <th>ATT-YDS</th>
+            <th>YPR</th>
+            <th>CMP-ATT</th>
+            <th>PCT</th>
+            <th>YDS</th>
+            <th>PYA</th>
+            <th>ATT-YDS</th>
+            <th>YPP</th>
+            <th>YPPT</th>
+        </tr>
 
+        <tr>
+            <td>Offense (All Games)
+                <td>25.4</td>
+                <td>13.5</td>
+                <td>19.9</td>
+                <td>32:10</td>
+                <td>26-100</td>
+                <td>(3.8)</td>
+                <td>22-34</td>
+                <td>65.7%</td>
+                <td>258</td>
+                <td>(7.7)</td>
+                <td>60-359</td>
+                <td>(6)</td>
+                <td>(14.1)</td>
+            </td>
+             </tr>
 
+            <tr>
+                <td> Opponents Defense Avg.</td>
+                <td>21.4</td>
+                <td>10.7</td>
+                <td>18.6</td>
+                <td>30:58</td>
+                <td>26-106</td>
+                <td>(4.1)</td>
+                <td>21-34</td>
+                <td>61.7%</td>
+                <td>222</td>
+                <td>(6.5)</td>
+                <td>60-328</td>
+                <td>(5.5)</td>
+                <td>(15.3)</td>
+            </tr>
+            <tr>
+                <td> Offense Home Games</td>
+                <td>30.5</td>
+                <td>15.1</td>
+                <td>19.7</td>
+                <td>31:28</td>
+                <td>27-99</td>
+                <td>(3.6)</td>
+                <td>20-30</td>
+                <td>66.4%</td>
+                <td>272</td>
+                <td>(8.9)</td>
+                <td>58-371</td>
+                <td>(6.4)</td>
+                <td>(12.2)</td>
+            </tr>
+            <tr>
+                <td> Defense (All Games)</td>
+                <td>15.8</td>
+                <td>7.6</td>
+                <td>16.9</td>
+                <td>28:29</td>
+                <td>24-109</td>
+                <td>(4.6)</td>
+                <td>19-33</td>
+                <td>56.7%</td>
+                <td>200</td>
+                <td>(6)</td>
+                <td>57-371</td>
+                <td>(5.4)</td>
+                <td>(19.6)</td>
+            </tr>
+            <tr>
+                <td> Opponents Offesnive Avg.</td>
+                <td>22.5</td>
+                <td>11.3</td>
+                <td>18.9</td>
+                <td>31:34</td>
+                <td>27-115</td>
+                <td>(4.2)</td>
+                <td>20-34</td>
+                <td>60.5%</td>
+                <td>220</td>
+                <td>(6.5)</td>
+                <td>61-336</td>
+                <td>(5.5)</td>
+                <td>(20.2)</td>
+            </tr>
+           <tr> 
+            <td> Defense Home Games</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+       
+    
 
-
+    
 
 
 
